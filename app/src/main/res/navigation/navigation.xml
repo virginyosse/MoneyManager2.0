@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_main"
+    app:startDestination="@id/navigation_tambah">
+
+    <fragment
+        android:id="@+id/navigation_tambah"
+        android:name="org.d3if3117.assesment2.main.TambahDataFrag"
+        android:label="Menu Tambah Data"
+        tools:layout="@layout/frag_tambah_data">
+
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_tampil"
+        android:name="org.d3if3117.assesment2.tampil.TampilDataFrag"
+        android:label="Menu Tampil Data"
+        tools:layout="@layout/frag_tampil_data">
+
+
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_info"
+        android:name="org.d3if3117.assesment2.tampil.TampilInfoFrag"
+        android:label="Menu Info"
+        tools:layout="@layout/frag_tampil_info" />
+</navigation>

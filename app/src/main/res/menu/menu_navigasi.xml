@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/navigation_tambah"
+        android:icon="@drawable/add"
+        android:title="Tambah"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/navigation_tampil"
+        android:icon="@drawable/list"
+        android:title="Tampil"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/navigation_info"
+        android:icon="@drawable/info"
+        android:title="Info"
+        app:showAsAction="ifRoom"/>
+
+
+</menu>
